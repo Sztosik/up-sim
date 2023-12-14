@@ -1,4 +1,4 @@
-# Wind Correction
+# UP-SIM
 
 ## Instalation
 
@@ -8,12 +8,11 @@ If you don't have it yet, install [Poetry](https://python-poetry.org/docs/)
 $ curl -sSL https://install.python-poetry.org | python3 -
 ```
 
-
 ### Repository Setup
 
 ```bash
-$ git clone git@gitlab.com:academic-aviation-club/droniada-2024/wind-correction.git
-$ cd wind-correction
+$ git clone git@github.com:LudovicRousseau/pyscard.git
+$ cd up-sim
 $ poetry shell
 $ poetry install --no-root
 ```
@@ -31,4 +30,8 @@ $ task pylint
 
 Read this [installation guide](https://docs.fedoraproject.org/en-US/fedora/latest/getting-started/)
 
-https://pyscard.sourceforge.io/pyscard-framework.html#framework-samples
+
+## Links
+
+1. [Examples](https://pyscard.sourceforge.io/pyscard-framework.html#framework-samples)
+1. [pyscard repo](https://github.com/LudovicRousseau/pyscard)
