@@ -8,6 +8,7 @@ packages = [{include = "UP-SIM"}]
 
 [tool.poetry.dependencies]
 python = "^3.9"
+smartcard = "^0.3"
 
 [tool.poetry.group.dev.dependencies]
 isort = "^5.13.1"
