@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "UP-SIM"
+version = "0.1.0"
+description = ""
+authors = ["Jędrzej Stasik <jedrzej.stasik@gmail.com>"]
+readme = "README.md"
+packages = [{include = "UP-SIM"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.group.dev.dependencies]
+isort = "^5.13.1"
+black = "^23.12.0"
+flake8 = "^6.1.0"
+pylint = "^3.0.3"
+mypy = "^1.7.1"
+taskipy = "^1.12.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.taskipy.tasks]
+formatting = "python -m black . && python -m isort ."
+pylint = "pylint src"
+mypy = "python -m mypy --namespace-packages src"
+flake8 = "poetry run python -m flake8 src && echo All is ok"
+
+[tool.isort]
+profile = "black"
+
