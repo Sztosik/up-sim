@@ -30,3 +30,5 @@ $ task pylint
 ## Instruction for Windows users
 
 Read this [installation guide](https://docs.fedoraproject.org/en-US/fedora/latest/getting-started/)
+
+https://pyscard.sourceforge.io/pyscard-framework.html#framework-samples
