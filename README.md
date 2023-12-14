@@ -35,3 +35,4 @@ Read this [installation guide](https://docs.fedoraproject.org/en-US/fedora/lates
 
 1. [Examples](https://pyscard.sourceforge.io/pyscard-framework.html#framework-samples)
 1. [pyscard repo](https://github.com/LudovicRousseau/pyscard)
+1. [smartcard manual](https://is.muni.cz/th/324546/fi_b/text.pdf?fbclid=IwAR2O_Jlg7S3ZP0_12jsZpyddDSkVq9JCcZ6IDj_GNKpyp2xSBSCMvQvJQYE)
